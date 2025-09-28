@@ -1,4 +1,5 @@
-FROM debian:buster-slim
+FROM debian:bullseye-slim
+
 
 RUN apt update
 RUN apt install -y wget cron curl mariadb-client gnupg
